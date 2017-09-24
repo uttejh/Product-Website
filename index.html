@@ -4,7 +4,9 @@
 	<meta charset="UTF-8">
 
 	<!-- Dependencies -->
-	<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">	
+	<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.css">	
+	<link rel="stylesheet" type="text/css" href="./css/font-awesome/css/font-awesome.css">
 
 	<script type="text/javascript" src="./node_modules/jquery/dist/jquery.js"></script>
 	<script type="text/javascript" src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
@@ -14,6 +16,9 @@
 	<script type="text/javascript" src="./node_modules/angular-animate/angular-animate.js"></script>
 	<script type="text/javascript" src="./node_modules/angular-ui-bootstrap/dist/ui-bootstrap.js"></script>
 	<script type="text/javascript" src="./node_modules/angular-ui-bootstrap/dist/ui-bootstrap-tpls.js"></script>
+
+	<!-- Controllers -->
+	<script type="text/javascript" src="./scripts/HomeController.js"></script>
 	
 
 	<title>Document</title>
@@ -21,7 +26,7 @@
 <body>
 	
 	<!-- Navbar -->
-	<nav class="navbar navbar-default">
+	<nav class="navbar navbar-inverse" style="margin-bottom: 0px;font-size: 17px">
 	  <div class="container-fluid">
 	    <!-- Brand and toggle get grouped for better mobile display -->
 	    <div class="navbar-header">
@@ -53,16 +58,42 @@
 	</div>
 
 	<!-- Footer -->
-	<footer class="col-md-12 zero-padding">
-		<div class="footer-copyright">
-			<center>
-				<div class="container-fluid">
-		            2015 Copyright
-		        </div>
-			</center>	
-	        
-	    </div>
-	    
+	<footer class="row zero-padding">
+		<div class="col-md-12">
+			<div class="col-md-12 linegap upper-footer">
+				<div class="col-md-7">
+					<div class="container-fluid">
+						<h3>Our Business</h3>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+				</div>
+				<div class="col-md-5">
+					<div class="container-fluid">
+						<h3>Contact Us</h3>
+						<ul>
+							<li><i class="fa fa-map-marker font-awe"></i> <strong>Address : </strong>Vavdi Survey No. 47, Plot No. 32,<br>
+								<span style="margin-left:73px;">Jivraj Industrial Area, Street No. 1,</span><br>
+								<span style="margin-left:71px;">Opp. Falcon Pump Street, Vavdi</span><br>
+								<span style="margin-left:72px;">Rajkot - 360004 (Gujarat) India</span></li>
+								<li><i class="fa fa-mobile fa-lg font-awe"></i> <strong>Mobile No : </strong>(+91) 98256 17640, (+91) 93757 63408</li>
+								<li><i class="fa fa-envelope-o font-awe"></i> <strong>Email : </strong><a href="mailto:info@hbpbearing.com">info@hbpbearing.com</a>, <a href="mailto:sales@hbpbearing.com">sales@hbpbearing.com</a></li>
+							</ul>
+					</div>
+				</div>
+			</div>
+			<div class="footer-copyright" style="background: #333;color: white;">
+				<center>
+					<div class="container-fluid">
+			            2015 Copyright
+			        </div>
+				</center>		        
+		    </div>
+	    </div>	    
 	</footer>
 
 

@@ -1,0 +1,36 @@
+<div style="height: 585px">
+  <div uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides" no-pause="mouseoverNopause">
+    <div uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+      <img ng-src="{{slide.image}}" style="margin:auto;">
+      <div class="carousel-caption">
+        <h4>Slide {{slide.id}}</h4>
+        <p>{{slide.text}}</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="col-md-12 linegap">
+  <div class="col-md-6">
+    <div class="container-fluid">
+      <legend>
+        <strong>Welcome</strong> To SE
+      </legend>
+      <p style="text-align: justify;">
+        Foundation stone of our firm- <span class="red">Dudheshwar Engineers</span>, laid down back in the year 1990. Since then, we are meeting market needs as a manufacturer, &amp; Exporter of all type of earthmoving spares like JCB Spare Parts, Heavy Earth Moving Spare Parts, Earth moving bearings, Pin bush, Piston, Head end cover, Bushes like, Gun Metal bush, Brass bush, Aluminium-Bronze bush, S.S bush, SGI bush, Bronze bush, Casting bush, Bi-metal bush &amp; as per customer requirement in any grade &amp; also making quality all type industrial needle roller bearings to the customers as per their specific needs. All our products are offered to the honorable patrons in varied sizes, grades, dimensions, shapes and specifications with the aim to meet diverse application requirements. Owing to special features like precision-engineering, durability, dimensional accuracy and tough construction, our offered spare parts are highly demanded by the customers in the market.
+      </p>
+    </div>
+  </div>
+  <div class="col-md-6">
+    <div class="container-fluid">
+      <legend>
+        We are an <strong>ISO 9001 2008</strong> Certified Company        
+      </legend>
+      <p>
+        The personnel working with us are sincere, punctual and capable of giving their best even under extreme pressure as a result we are climbing up ladders of enviable success. We are working day and night for finding latest technology for easy &amp; fast production. We produce the range under the direct supervision of highly qualified technical experts. Our technicians keep a keen eye on the every stage of the production process. We also possess a strongly empowered development division. This section incorporates cutting edge technology in the designing of the heavy earth moving machinery spares.
+      </p>
+      <p>
+        Over the years, we have been able to become first preference of a large number of customers due to relentless efforts of our team mates.
+      </p>
+    </div>
+  </div>
+</div>
