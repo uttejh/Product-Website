@@ -33,5 +33,15 @@ app.config(function($stateProvider,$urlRouterProvider){
 					controller:"AboutController"
 				}
 			}
+		})
+		.state('quality',{
+			url:'/quality',
+			views:{
+				"main":{
+					templateUrl:"partials/quality.html",
+					data:{title:"Quality"},
+					controller:"AboutController"
+				}
+			}
 		});
 });
