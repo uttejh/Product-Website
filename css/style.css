@@ -12,7 +12,10 @@ body{
 li{
 	list-style: none;
 }
-
+.iso{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
 .upper-footer{
 	padding: 25px;
 	background: #1f1f1f;
@@ -21,4 +24,103 @@ li{
 
 .font-awe{
 	padding-right: 5px;
+}
+
+.bearings{
+	background: gainsboro;
+}
+
+.pad_bearings{
+	display: -webkit-box; 
+	padding: 50px 25px;
+	color: red;
+}
+.pad_pad_bearings{
+	padding: 0px 13px;
+}
+.bearings_img{
+	background-size: 100% 100%;
+	height: 150px;
+	width: 175px;
+}
+#bearings1{
+	background-image: url(../img/pro01.jpg);
+}
+#bearings2{
+	background-image: url(../img/pro02.jpg);
+}
+#bearings3{
+	background-image: url(../img/pro03.jpg);
+}
+#bearings4{
+	background-image: url(../img/pro04.jpg);
+}
+#bearings5{
+	background-image: url(../img/pro05.jpg);
+}
+#bearings6{
+	background-image: url(../img/pro06.jpg);
+}
+
+.zero_padding{
+	padding: 0px;
+}
+.pad_pad_bearings:hover{
+	opacity: 0.8;
+	cursor: pointer;
+}
+.hover_text{
+	position: relative;top:40%
+}
+.applications{
+	background-image: url('../img/appl.jpg');
+	color: white;
+	padding-bottom: 25px;
+}
+.pad_appl{
+	padding: 30px 40px;
+}
+.appl_text{
+	padding: 10px;
+	border: 2px solid white;
+}
+.mach_span{
+	padding: 6px;
+	background-color: red;
+	border-radius:5px;
+	padding-top: 5px; 
+}
+.mach_img{
+	border-radius: 80px;
+	width: 175px;
+	height: 150px;
+	border:3px solid white;
+}
+.mac_text{
+	padding-top: 10px;
+}
+.appl_text_div{
+	padding-bottom: 25px;
+}
+
+.about{
+	background-image: url('../img/Aboutus.jpg');
+	background-size: 100% 100%;
+	height: 175px;
+	color: white;
+}
+.ab{
+	position: relative;
+	top: 40%;
+}
+.about_next{
+	padding: 40px 0px;
+}
+.about_t{
+	text-align: justify;
+	padding-left: 10px;
+	/*display: flex;*/
+}
+.about_env{
+	padding-bottom: 20px;
 }

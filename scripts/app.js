@@ -13,5 +13,15 @@ app.config(function($stateProvider,$urlRouterProvider){
 					controller:"HomeController"
 				}
 			}
+		})
+		.state('about',{
+			url:'/aboutus',
+			views:{
+				"main":{
+					templateUrl:"partials/about.html",
+					data:{title:"About"},
+					controller:"AboutController"
+				}
+			}
 		});
 });
