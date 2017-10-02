@@ -23,5 +23,15 @@ app.config(function($stateProvider,$urlRouterProvider){
 					controller:"AboutController"
 				}
 			}
+		})
+		.state('contact',{
+			url:'/contactus',
+			views:{
+				"main":{
+					templateUrl:"partials/contact.html",
+					data:{title:"Contact"},
+					controller:"AboutController"
+				}
+			}
 		});
 });
